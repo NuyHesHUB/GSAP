@@ -1,0 +1,22 @@
+/* css 임포트 */
+@import "./reset.css";
+@import "./chit-header.css";
+@import "./chit-main-swiper-section.css";
+/* @import "./hospital-bigtext-section.css"; */
+@import "./hospital-director-section.css";
+@import "./riat-step-section.css";
+@import "./hospital-swipercont-section.css";
+@import "./hospital-youtube-section.css";
+@import "./hospital-faq-section.css";
+@import "./stories-two-sepe-section.css";
+@import "./hospital-ai-section.css";
+@import "./firstPage.css";
+@import "./subpage.css";
+/* 한결css */
+@import "./riact-step-section.css";
+@import "./hangyeol-swiper-section1.css";
+@import "./hangyeol-swiper-section.css";
+@import "./hangyeol-partners-section.css";
+@import "./chit-main-swiper-section.css";
+@import "./alv-contact-section.css";
+@import "./hangyeol-home-header.css";

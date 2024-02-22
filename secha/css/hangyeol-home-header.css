@@ -1,0 +1,147 @@
+.hangyeol-home-header {
+    position: fixed;
+    padding: 2rem;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+
+}
+.hangyeol-home-header .hangyeol-home-header-container {
+    height: 100%;
+    position: relative;
+    z-index: 99;
+    width: 0%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2rem;
+    transform: translateY(-50px);
+    opacity: 0;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+.hangyeol-home-header .hangyeol-home-header-wrap {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.hangyeol-home-header .home-header {
+    font-size: 18px;
+    width: 33.33%;
+    transform: translateY(-20px);
+    opacity: 0;
+    display: flex;
+    gap: 3.5rem;
+    /* font-weight: bold; */
+}
+.hangyeol-home-header .home-header a{
+    color: #000000;
+    font-weight: bold;
+}
+.hangyeol-home-header .home-header.center {
+    justify-content: center;
+    font-size: 26px;
+    font-weight: bold;
+    object-fit: contain;
+    width: 33.4%;
+}
+.hangyeol-home-header .home-header.center img {
+    height: 64px;
+}
+.hangyeol-home-header .home-header.right {
+    justify-content: right;
+}
+.hangyeol-home-header .home-header.right span {
+    font-size: 30px;
+}
+
+
+@media screen and (max-width : 768px){
+    .hangyeol-home-header {
+        position: fixed;
+        padding: 2rem 1rem;
+        width: 100%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 20;
+    }
+    .hangyeol-home-header .hangyeol-home-header-container {
+        height: 100%;
+        position: relative;
+        z-index: 99;
+        width: 0%;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 2rem;
+        transform: translateY(-50px);
+        opacity: 0;
+        overflow: hidden;
+        padding: 0 2rem;
+    }
+    .hangyeol-home-header .hangyeol-home-header-wrap {
+        display: flex;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .hangyeol-home-header .home-header {
+        font-size: 16px;
+        width: 100%;
+        transform: translateY(-20px);
+        opacity: 0;
+        display: flex;
+        gap: 1rem;
+        /* font-weight: bold; */
+    }
+    .hangyeol-home-header .home-header a{
+        color: #000000;
+    }
+    .hangyeol-home-header .logo-img{
+        width: 100px;
+    }
+    .hangyeol-home-header .home-header.center {
+        justify-content: center;
+        font-size: 26px;
+        font-weight: bold;
+        object-fit: contain;
+    }
+    .hangyeol-home-header .home-header.right {
+        justify-content: right;
+    }
+    .hangyeol-home-header .home-header.right span {
+        font-size: 30px;
+    }
+
+    /*모바일 세부 메뉴*/
+    .hangyeol-mobile-sebu-wrap{
+        padding: 3rem 2rem;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: -100vh;
+        background-color: #232323;
+        color: white;
+        z-index: 30;
+        transition: all .5s ease;
+    }
+    .hangyeol-mobile-sebu-wrap .top-x-icon-wrap{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 40px;
+    }
+    .hangyeol-mobile-sebu-wrap .center-a-wrap{
+        flex-direction: column;
+        display: flex;
+    }
+    .hangyeol-mobile-sebu-wrap .center-a-wrap a{
+        color: white;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,68 @@
+/* css 임포트 */
+@import "./reset.css";
+
+
+.gsap-timeline {
+    width: 100%;
+    height: 300vh;
+}
+
+.gsap-timeline .container{
+    width: 100%;
+    height: 100%;
+}
+
+.gsap-timeline .wrap{
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.gsap-timeline .text1{
+    background-color: aqua;
+    height: 50vh;
+    transform: translateY(0%) ;
+}
+
+
+
+
+.onElel-timeline {
+    width: 100%;
+    height: 300vh;  
+}
+
+.onElel-timeline .container{
+    width: 100%;
+    height: 100%;
+}
+
+.onElel-timeline .wrap{
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.onElel-timeline .text{
+    background-color: aqua;
+    height: 50vh;
+    transform: translateY(0%) ;
+}
+
+
+
+.gsap-forEach {
+    width: 100%;
+    height: 100%;
+}
+
+.gsap-forEach .box{
+    width: 100%;
+    height: 50vh;
+    background-color: blueviolet;
+    transform: scale(1);
+    margin-bottom: 100px;
+    transition: 1s all;
+}

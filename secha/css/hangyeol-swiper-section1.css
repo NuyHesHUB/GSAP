@@ -1,0 +1,187 @@
+.hangyeol-swiper-section1 {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background-color: #fff;
+}
+
+.hangyeol-swiper-section1 .hangyeol-swiper-section1-cover {
+    width: 100%;
+    height: 100%;
+    padding: 0 4.5vw;
+}
+
+.hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .text-box {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 10vw;
+    margin-bottom: 7rem;
+}
+
+.hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .text-box .text1 {
+    width: 30%;
+    font-size: max(1.4vw, 20px);
+    /* font-family: "PP Neue Montreal Medium",roboto,arial,sans-serif; */
+    line-height: 1.4285714286;
+
+}
+
+.hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .text-box .text2-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    order: -1;
+}
+.hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .text-box .text2-box .icon-cover{
+    width: 29%;
+    overflow: hidden;
+    border-bottom: 1px solid;
+    padding: 1rem;
+
+    transition: all 1s;
+    z-index: 2;
+}
+
+.hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .text-box .text2-box .text2 {
+    font-size: max(2.3vw, 40px);
+    line-height: 1.2;
+    margin-bottom: 2rem;
+
+}
+.hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .text-box .text2-box .text2-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .mySwiper {
+    width: 100%;
+    height: 30%;
+    position: relative;
+}
+
+.hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .mySwiper .slide {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+
+.hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .mySwiper .slide img {
+    display: block;
+    width: 105%;
+    height: 105%;
+    object-fit: cover;
+    border-radius: 2rem;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transform: translate(0px, -10%);
+}
+
+
+@media screen and (max-width : 768px){
+    .hangyeol-swiper-section1 {
+        width: 100%;
+        height: 50vh;
+        position: relative;
+        background-color: #fff;
+    }
+
+    .hangyeol-swiper-section1 .hangyeol-swiper-section1-cover {
+        width: 100%;
+        height: 100%;
+        padding: 0rem 1rem;
+    }
+
+    .hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .text-box {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-top: 3rem;
+        margin-bottom: 0rem;
+        flex-direction: column;
+    }
+
+    .hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .text-box .text1 {
+        width: 100%;
+        font-size: 18px;
+        /* font-family: "PP Neue Montreal Medium",roboto,arial,sans-serif; */
+        line-height: 1.4285714286;
+    }
+
+    .hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .text-box .text2-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        order: -1;
+    }
+    .hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .text-box .text2-box .icon-cover{
+        width: 100%;
+        overflow: hidden;
+        border-bottom: 1px solid;
+        padding: 1rem;
+
+        transition: all 1s;
+        z-index: 2;
+    }
+
+    .hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .text-box .text2-box .text2 {
+        font-size: 24px;
+        line-height: 1.046875;
+        margin-bottom: 2rem;
+
+    }
+    .hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .text-box .text2-box .text2-icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 100%;
+
+        object-fit: cover;
+    }
+    .hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .mySwiper {
+        width: 100%;
+        height: 30%;
+        position: relative;
+    }
+
+    .hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .mySwiper .slide {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 2rem;
+    }
+
+    .hangyeol-swiper-section1 .hangyeol-swiper-section1-cover .mySwiper .slide img {
+        display: block;
+        width: 105%;
+        height: 105%;
+        object-fit: cover;
+        border-radius: 2rem;
+        transform-style: preserve-3d;
+        will-change: transform;
+        transform: translate(0px, -10%);
+    }
+}

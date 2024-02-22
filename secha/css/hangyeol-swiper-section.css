@@ -1,0 +1,136 @@
+.hangyeol-swiper-section{
+    position: relative;;
+    padding: 2.5rem 86px;
+    /*padding-left: 2rem;*/
+    background-color: #fff;
+    color: #fff;
+}
+
+.hangyeol-swiper-section .swiper-slide{
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.hangyeol-swiper-section .swiper-slide-wrap{
+    width: 100%;
+    height: 100%;
+}
+
+.hangyeol-swiper-section .swiper-slide-img-wrap{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.hangyeol-swiper-section .swiper-slide-img-wrap img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.7);
+}
+
+.hangyeol-swiper-section .swiper-slide-title-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3rem 2rem;
+}
+
+.hangyeol-swiper-section .slide-title{
+    font-size: 26px;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.hangyeol-swiper-section .swiper-slide-hover{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #e1e1e1;
+    color: black;
+    transition: 0.7s all;
+}
+
+.hangyeol-swiper-section .swiper-slide-hover .swiper-slide-title-wrap{
+    top: 30%;
+    transform: translateY(-50%);
+}
+
+.hangyeol-swiper-section .swiper-slide:hover .swiper-slide-hover{
+    top: 0%;
+
+}
+
+
+@media screen and (max-width : 768px){
+    .hangyeol-swiper-section{
+        position: relative;;
+        padding: 3rem 1rem;
+        /*padding-left: 2rem;*/
+        background-color: #fff;
+        color: #fff;
+    }
+
+    .hangyeol-swiper-section .swiper-slide{
+        aspect-ratio: 1/1;
+        overflow: hidden;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .hangyeol-swiper-section .swiper-slide-wrap{
+        width: 100%;
+        height: 100%;
+    }
+
+    .hangyeol-swiper-section .swiper-slide-img-wrap{
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem;
+    }
+
+    .hangyeol-swiper-section .swiper-slide-img-wrap img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        filter: brightness(0.7);
+    }
+
+    .hangyeol-swiper-section .swiper-slide-title-wrap{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 3rem 2rem;
+    }
+
+    .hangyeol-swiper-section .slide-title{
+        font-size: 24px;
+        margin-bottom: 0.5rem;
+    }
+    .hangyeol-swiper-section .slide-sub-title{
+        font-size: 14px;
+    }
+    .hangyeol-swiper-section .swiper-slide-hover{
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        height: 100%;
+        background-color:#e1e1e1;
+        color: black;
+        transition: 0.7s all;
+    }
+
+    .hangyeol-swiper-section .swiper-slide-hover .swiper-slide-title-wrap{
+        top: 30%;
+        transform: translateY(-50%);
+    }
+
+    .hangyeol-swiper-section .swiper-slide:hover .swiper-slide-hover{
+        top: 0%;
+
+    }
+}

@@ -1,0 +1,169 @@
+.alv-contact-section{
+    width: 100%;
+    height: 70vh;
+    padding: 28px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-family: "Pretendard";
+    position: relative;
+    z-index: 2;
+}
+.alv-contact-section .alv-contact-img-wrap{
+    width: calc(50% - 8px);
+    height: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.alv-contact-section .alv-contact-img-wrap img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.alv-contact-section .alv-contact-text-wrap{
+    width: calc(50% - 8px);
+    height: 100%;
+    background-color: #e1e1e1;
+    border-radius: 1rem;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.alv-contact-section .alv-contact-text-wrap{
+    padding: 4rem;
+}
+.alv-contact-section .alv-contact-top-mini{
+    font-size: 14px;
+}
+.alv-contact-section .alv-contact-top-big{
+    font-size: 48px;
+}
+.alv-contact-section .alv-contact-bottom{
+    display: flex;
+    flex-direction: column;
+}
+.alv-contact-section .alv-contact-form{
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: .5rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 16px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.alv-contact-section .alv-contact-form:nth-child(3){
+    padding-top: 10px;
+    font-family: "Pretendard";
+    height: 150px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    resize: none;
+}
+.alv-contact-section .alv-contact-send-btn{
+    height: 50px;
+    background-color: #696969;
+    border-radius: .5rem;
+    border: none;
+    transition: all 0.3s ease;
+}
+.alv-contact-section .alv-contact-send-btn:hover{
+    background-color: #8a8a8a;
+}
+@media screen and (max-width: 768px) {
+    .alv-contact-section{
+        width: 100%;
+        height: auto;
+        padding: 16px;
+        /*background-color: black;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /*color: white;*/
+        font-family: "Pretendard";
+    }
+    .alv-contact-section .alv-contact-img-wrap{
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .alv-contact-section .alv-contact-img-wrap img{
+        object-fit: cover;
+        width: 100%;
+    }
+    .alv-contact-section .alv-contact-text-wrap{
+        width: 100%;
+        height: 100%;
+        /*background-color: #1a1a1a;*/
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 5vw;
+    }
+    .alv-contact-section .alv-contact-top-mini{
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+    .alv-contact-section .alv-contact-top-big{
+        font-size: 8vw;
+        padding-bottom: 60px;
+    }
+    .alv-contact-section .alv-contact-bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .alv-contact-section .alv-contact-form{
+        height: 50px;
+        /*background-color: rgba(255, 255, 255, 0.1);*/
+        /*border: 1px solid rgba(255, 255, 255, 0.3);*/
+        border-radius: .5rem;
+        color: rgba(255, 255, 255, 0.5);
+        padding-left: 16px;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .alv-contact-section .alv-contact-form:nth-child(3){
+        padding-top: 10px;
+        font-family: "Pretendard";
+        height: 150px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+        resize: none;
+    }
+    .alv-contact-section .alv-contact-send-btn{
+        height: 50px;
+        border-radius: .5rem;
+        border: none;
+        transition: all 0.3s ease;
+    }
+}
+/* 컨택폼 */
+.alv-contact-section .alv-contact-bottom fieldset{
+    display: flex;
+    flex-direction: column;
+}
+.alv-contact-section .alv-contact-bottom fieldset input{
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    color: black;
+    padding-left: 16px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.alv-contact-section .alv-contact-bottom fieldset input:nth-of-type(3){
+    height: 150px;
+}
+.alv-contact-section .contact-form-submit{
+    width: 100%;
+    height: 50px;
+    border-radius: 0.5rem;
+    border: none;
+    transition: all 0.3s ease;
+}
